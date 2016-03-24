@@ -2104,3 +2104,18 @@
 				}
 
 	}
+
+/*My Custom*/
+
+.dn.imgs.ability
+{
+    color: #EA8A95;
+    display: block;
+    margin: 0 0 1.5em 0;
+    cursor: default;
+    width: 245px;
+    height: 88px;
+}
+
+
+
