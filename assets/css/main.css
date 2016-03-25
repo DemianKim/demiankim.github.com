@@ -2107,7 +2107,7 @@
 
 /*My Custom*/
 
-.dn.imgs.ability
+.ability-img
 {
     /*color: #EA8A95;*/
     display: block;
@@ -2117,25 +2117,15 @@
     height: 88px;
 }
 
-/*
-.progress
+.ability-progress-txt
 {
-    width:80%;
-    height: 20px;
-    margin:0 auto;
-    position: relative;
-    background: #F8D4DA;
-    background: #E37483;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    border-radius: 25px;
-    padding: 10px;
-    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    
 }
-*/
 
-.ability-container-ccpp {
-    width: 80%;
+
+.ability-container-ccpp
+{
+    width: 60%;
     height: 15px;
     margin: 0 auto;
     background-color: transparent;
@@ -2150,7 +2140,8 @@
 }
 
 
-.ability-progress-ccpp {
+.ability-progress-ccpp
+{
     width: 0%;
     height: 100%;
     background: #E37483;
@@ -2161,28 +2152,6 @@
     
     animation: ability-progress-ccpp 2s normal forwards ease-in-out;
     -webkit-animation: ability-progress-ccpp 2s normal forwards ease-in-out;
-}
- 
-@keyframes ability-progress-ccpp {
-    
-    0% {
-        width: 0%;
-    }
-    
-    100% {
-        width: 70%;
-    }
-}
-@-webkit-keyframes ability-progress-ccpp {
-    
-    0% {
-        width: 0%;
-    }
-    
-    100% {
-        width: 70%;
-    }
-    
 }
 
 
