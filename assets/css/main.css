@@ -2149,7 +2149,9 @@
     height: 20px;
     line-height: 20px;
     font-size: 8pt;
-    color: #F8D4DA;
+    font-weight: bold;
+    /*color: #F8D4DA;*/
+    color: #FFFFFF;
     position: absolute;
     display: inline-block;
     text-shadow: none;
