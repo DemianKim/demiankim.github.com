@@ -2117,41 +2117,42 @@
     height: 88px;
 }
 
-.ability-progress-txt
+.ability-container
 {
-    
-}
-
-
-.ability-container-ccpp
-{
-    width: 60%;
-    height: 15px;
+    width: 55%;
+    height: 25px;
     margin: 0 auto;
     background-color: transparent;
     border-color: #F8D4DA;
     border-width: 3px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    
     border-style: solid;
-    
-    
 }
 
-
-.ability-progress-ccpp
+.ability-progress
 {
-    width: 0%;
-    height: 100%;
+    margin: 3px;
+    height: 68%;
     background: #E37483;
-    -moz-border-radius: 6px 0px 0px 6px;
-    -webkit-border-radius: 6px 0px 0px 6px;
-    border-radius: 6px 0px 0px 6px;
-    margin-left: -1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    /*margin-left: -1px;*/
     
-    animation: ability-progress-ccpp 2s normal forwards ease-in-out;
-    -webkit-animation: ability-progress-ccpp 2s normal forwards ease-in-out;
+}
+.ability-progress-txt
+{
+    width: 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 8pt;
+    color: #F8D4DA;
+    position: absolute;
+    display: inline-block;
+    text-shadow: none;
 }
 
 
